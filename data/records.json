@@ -18,9 +18,9 @@
       "apellido": "Smith",
       "correo": "janesmith@gmail.com",
       "casa": "Hufflepuff",
-      "intentos": 25,
-      "tiempo": 80,
-      "puntos": 105,
+      "intentos": 30,
+      "tiempo": 85,
+      "puntos": 115,
       "ip": "201.45.67.89",
       "fecha": 1718409600000
     }
@@ -292,8 +292,8 @@
       "correo": "harperfernandez@gmail.com",
       "casa": "Hufflepuff",
       "intentos": 26,
-      "tiempo": 70,
-      "puntos": 96,
+      "tiempo": 90,
+      "puntos": 116,
       "ip": "890.901.012.123",
       "fecha": 1717632000000
     }
