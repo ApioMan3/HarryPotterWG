@@ -57,7 +57,7 @@ function cargarPersonajes() {
           ? `<p class="character-date"> Fecha de nacimiento: <br> ${personaje.dateOfBirth}.</p>`
           : `<p class="character-date"> Fecha de nacimiento: <br> Desconocida.</p>`
       }
-      <img class="cardBlank" src="img/Card.png" alt="Card">
+      <img class="cardBlank" src="img/CardEmpty.png" alt="Card">
     `;
 
     card.addEventListener("click", () => voltear(index));
@@ -161,7 +161,7 @@ function voltear(index) {
           storedUser[0] = user;
           const updatedUserArray = JSON.stringify(storedUser);
           localStorage.setItem("user", updatedUserArray);
-          if (!check) {
+          if (check) {
             alert("¡Los tramposos no son recordados!");
           } else {
             registrarRecord();
