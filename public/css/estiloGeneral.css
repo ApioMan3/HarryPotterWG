@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #cfa878;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 64px;
+  background: #551517;
+  color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.navbar img {
+  width: 48px;
+  margin-right: 10px;
+}
+
+#boton-juego {
+  cursor: pointer;
+}
+
+
+.navbar {
+  justify-content: space-between;
+  margin: 0, 0, 0, 16px;
+}
+
+
+main {
+  padding-top: 64px;
+}
+
+.navbar-title {
+  font-size: 16px;
+  margin-right: 16px;
+}
+
+.navbar-title,
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu span {
+  margin: 0 15px;
+  justify-content: center;
+}
+
+#help-panel,
+#config-panel {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #cfa878;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-width: 5px;
+  border-color: #551517;
+  border-style: solid;
+  z-index: 20;
+  width: auto;
+}
+
+#config-panel form div {
+  margin-bottom: 15px;
+}
+
+#config-panel label {
+  display:inline-flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+#config-panel input,
+#config-panel select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#help-panel img,
+#config-panel img {
+  max-height: 48px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#config-panel span,
+#help-panel span{
+  display:inline-flex;
+  align-items: center;
+}
+
+#config-panel h2,
+#help-panel h2 {
+  text-align: center;
+  margin-top: 0px;
+  color: #551517;
+  font-size: 2rem;
+  font-weight: bold;
+}

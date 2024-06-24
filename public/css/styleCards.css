@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+#records-container,
+#cards-container {
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: calc(10vw - 10px);
+  margin: 0.5vh;
+  border-radius: 0.5vh;
+}
+
+.houseCard {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  position: relative;
+}
+
+.characterImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.character-title {
+  position: absolute;
+  top: -2%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 0.8vw;
+  text-shadow: 0.2vw 0.2vw 0.4vw black;
+  z-index: 3;
+  white-space: nowrap;
+  padding: 0 1vw; 
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.character-date {
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  color: black;
+  font-size: 0.60vw;
+  z-index: 3;
+}
+
+.cardBlank {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  background-size: cover;
+  cursor: pointer;
+  display: initial;
+}
