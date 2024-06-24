@@ -33,7 +33,7 @@ function generateNavbar() {
   const link = document.createElement("a");
   link.href = "#";
   const icono = document.createElement("img");
-  icono.src = "img/icons/ayuda.png";
+  icono.src = "img/icons/Ayuda.png";
   icono.alt = "Ayuda";
   link.appendChild(icono);
 
@@ -104,17 +104,17 @@ function createConfigPanel() {
   errorDiv.innerText = "Todos los campos son obligatorios.";
   errorDiv.classList.add("error");
   const acceptButton = document.createElement('img');
-  acceptButton.src = 'img/icons/aceptar.png';
+  acceptButton.src = 'img/icons/Aceptar.png';
   acceptButton.id = 'config-aceptar';
   acceptButton.alt = 'Aceptar';
 
   const cancelButton = document.createElement('img');
-  cancelButton.src = 'img/icons/cancelar.png';
+  cancelButton.src = 'img/icons/Cancelar.png';
   cancelButton.id = 'config-cancelar';
   cancelButton.alt = 'Cancelar';
 
   const clearButton = document.createElement('img');
-  clearButton.src = 'img/icons/basura.png';
+  clearButton.src = 'img/icons/Basura.png';
   clearButton.id = 'borrar-datos';
   clearButton.alt = 'Borrar datos';
 

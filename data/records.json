@@ -388,31 +388,5 @@
       "ip": "890.901.012.123",
       "fecha": 1717632000000
     }
-  ],
-  [
-    {
-      "nombre": "Robinson",
-      "apellido": "Winiarczyk",
-      "correo": "Robinsonwiniarczyk@gmail.com",
-      "casa": "Gryffindor",
-      "intentos": 27,
-      "tiempo": 61,
-      "puntos": 88,
-      "ip": "170.450.185.82",
-      "fecha": 1719014400000
-    }
-  ],
-  [
-    {
-      "nombre": "Pedro",
-      "apellido": "Perez",
-      "correo": "PedroPerez@gmail.com",
-      "casa": "Ravenclaw",
-      "intentos": 16,
-      "tiempo": 69,
-      "puntos": 85,
-      "ip": "186.132.185.82",
-      "fecha": 1719001401958
-    }
   ]
 ]
